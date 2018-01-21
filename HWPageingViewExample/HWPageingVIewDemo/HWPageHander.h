@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PageView.h"
-#import "Pagedefine.h"
+#import "HWPageView.h"
+#import "HWPagedefine.h"
 
 @interface HWPageHander : NSObject
 
-@property(nonatomic, strong)PageView* pageView;
+@property(nonatomic, strong)HWPageView* pageView;
 
 - (instancetype)initPageWith:(NSArray*)titleArray and:(HWPageStyle)style;
 

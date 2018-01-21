@@ -17,7 +17,7 @@
 		014838FA20045A340049A5AE /* HWPageStyleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014838F920045A340049A5AE /* HWPageStyleSelectTableViewController.m */; };
 		014838FD2004610F0049A5AE /* HWPageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 014838FC2004610F0049A5AE /* HWPageFactory.m */; };
 		0148390020046EBA0049A5AE /* HWPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014838FF20046EBA0049A5AE /* HWPageViewController.m */; };
-		01483907200471550049A5AE /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01483906200471550049A5AE /* PageView.m */; };
+		01483907200471550049A5AE /* HWPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01483906200471550049A5AE /* HWPageView.m */; };
 		0148390A20064DC90049A5AE /* HWPageHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 0148390920064DC90049A5AE /* HWPageHander.m */; };
 		014839102008E8590049A5AE /* HWNeiHanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0148390F2008E8590049A5AE /* HWNeiHanTableViewController.m */; };
 		014839132008E9290049A5AE /* HWNeiHanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 014839122008E9290049A5AE /* HWNeiHanTableViewCell.m */; };
@@ -68,9 +68,9 @@
 		014838FC2004610F0049A5AE /* HWPageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPageFactory.m; sourceTree = "<group>"; };
 		014838FE20046EBA0049A5AE /* HWPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWPageViewController.h; sourceTree = "<group>"; };
 		014838FF20046EBA0049A5AE /* HWPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPageViewController.m; sourceTree = "<group>"; };
-		014839042004702E0049A5AE /* Pagedefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pagedefine.h; sourceTree = "<group>"; };
-		01483905200471550049A5AE /* PageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
-		01483906200471550049A5AE /* PageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		014839042004702E0049A5AE /* HWPagedefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWPagedefine.h; sourceTree = "<group>"; };
+		01483905200471550049A5AE /* HWPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWPageView.h; sourceTree = "<group>"; };
+		01483906200471550049A5AE /* HWPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPageView.m; sourceTree = "<group>"; };
 		0148390820064DC90049A5AE /* HWPageHander.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWPageHander.h; sourceTree = "<group>"; };
 		0148390920064DC90049A5AE /* HWPageHander.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPageHander.m; sourceTree = "<group>"; };
 		0148390E2008E8590049A5AE /* HWNeiHanTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWNeiHanTableViewController.h; sourceTree = "<group>"; };
@@ -175,9 +175,9 @@
 		0148390B2007B6820049A5AE /* HWPageingView */ = {
 			isa = PBXGroup;
 			children = (
-				014839042004702E0049A5AE /* Pagedefine.h */,
-				01483905200471550049A5AE /* PageView.h */,
-				01483906200471550049A5AE /* PageView.m */,
+				014839042004702E0049A5AE /* HWPagedefine.h */,
+				01483905200471550049A5AE /* HWPageView.h */,
+				01483906200471550049A5AE /* HWPageView.m */,
 			);
 			path = HWPageingView;
 			sourceTree = "<group>";
@@ -377,7 +377,7 @@
 				014839102008E8590049A5AE /* HWNeiHanTableViewController.m in Sources */,
 				014839172008F01A0049A5AE /* NeiHanModel.m in Sources */,
 				0148391B2008F5660049A5AE /* HWWonderfulComment.m in Sources */,
-				01483907200471550049A5AE /* PageView.m in Sources */,
+				01483907200471550049A5AE /* HWPageView.m in Sources */,
 				014839252009B5B50049A5AE /* UIView+Frame.m in Sources */,
 				0148392E200A27D60049A5AE /* HWCommentView.m in Sources */,
 				0148390A20064DC90049A5AE /* HWPageHander.m in Sources */,

@@ -31,8 +31,7 @@
     NSArray* titleArray = @[@"推荐",@"视频",@"直播",@"图片",@"段子",@"精华",@"关注"];
     
     self.hander = [[HWPageHander alloc] initPageWith:titleArray and:RollStyle];
-    [self.hander.pageView.topLayer removeFromSuperlayer];
-    [self.hander.pageView.bottomLayer removeFromSuperlayer];
+    [self.hander.pageView hideTopAndBottomLayer];
     self.navigationItem.titleView = self.hander.pageView;
     
     NeiHanModel* model1 = [[NeiHanModel alloc] init];

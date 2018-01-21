@@ -16,7 +16,7 @@
     
     if (self)
     {
-        self.pageView = [[PageView alloc] initWith:titleArray and:style];
+        self.pageView = [[HWPageView alloc] initWith:titleArray and:style];
     }
     return self;
 }

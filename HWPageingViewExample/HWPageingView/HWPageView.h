@@ -1,5 +1,5 @@
 //
-//  PageView.h
+//  HWPageView.h
 //  HWPageingViewExample
 //
 //  Created by 黄文海 on 2018/1/9.
@@ -7,15 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Pagedefine.h"
+#import "HWPagedefine.h"
 
-@interface PageView : UIView
+@interface HWPageView : UIView
 
 @property(nonatomic, assign)HWPageStyle style;
-@property(nonatomic, strong)CALayer* topLayer;
-@property(nonatomic, strong)CALayer* bottomLayer;
 @property(nonatomic, strong)NSArray* titleArray;
 
 - (instancetype)initWith:(NSArray*)titleArray and:(HWPageStyle)style;
+
+- (void)hideTopAndBottomLayer;
 
 @end

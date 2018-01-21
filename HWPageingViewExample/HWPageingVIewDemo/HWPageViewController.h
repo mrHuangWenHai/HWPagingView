@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Pagedefine.h"
+#import "HWPagedefine.h"
 
 @interface HWPageViewController : UIViewController
 

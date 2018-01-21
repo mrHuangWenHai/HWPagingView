@@ -1,25 +1,27 @@
 //
-//  PageView.m
+//  HWPageView.m
 //  HWPageingViewExample
 //
 //  Created by 黄文海 on 2018/1/9.
 //  Copyright © 2018年 huang. All rights reserved.
 //
 
-#import "PageView.h"
+#import "HWPageView.h"
 
-@interface PageView()
+@interface HWPageView()
 
 @property(nonatomic, strong)UIScrollView* scrollView;
 @property(nonatomic, strong)CALayer* indicateLayer;
 @property(nonatomic, assign)CGFloat width;
 @property(nonatomic, strong)NSMutableArray<UIButton* >* buttonArray;
 @property(nonatomic, assign)CGFloat titleWidth;
+@property(nonatomic, strong)CALayer* topLayer;
+@property(nonatomic, strong)CALayer* bottomLayer;
 
 
 @end
 
-@implementation PageView
+@implementation HWPageView
 
 - (instancetype)initWith:(NSArray*)titleArray and:(HWPageStyle)style {
     
@@ -163,6 +165,11 @@
     self.topLayer.frame = CGRectMake(0, 0, width, 1);
     self.bottomLayer.frame = CGRectMake(0, height-1, width, 1);
     self.indicateLayer.frame = CGRectMake(spareWidth, height - 5, CGRectGetWidth(self.buttonArray.firstObject.frame), 3);
+}
+
+- (void)hideTopAndBottomLayer {
+    self.topLayer.hidden = true;
+    self.bottomLayer.hidden = true;
 }
 
 @end
